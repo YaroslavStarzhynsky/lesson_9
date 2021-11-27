@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding:0;
+}
 header{
     background: url(../img/background.png) no-repeat center;
     background-size: cover;
@@ -51,5 +56,58 @@ li{
    justify-content:center;
    flex-direction:column;
    margin-top:27vh;
+}
+.services{
+margin-top:90px;
+flex-wrap:wrap;
+}
+.service_name{
+    margin:0 auto;
+}
+.name{
+    font-size:24px;
+    text-align:center;
+    margin-bottom:30px;
+}
+hr{
+    margin: 0 auto;
+    width:50px;
+    height:1px;
+    background-color:black;
+    border-radius:3px;
+}
+.service_txt{
+    margin:0 auto;
+    margin-bottom:90px;
+}
+.txt{
+    text-align:center;
+    margin-top:30px;
+}
+.icons{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
 
+.box{
+    color:white;
+    width: 80px;
+    height: 80px;
+    font-size:35px;
+    border-width:1px;
+    border-color:gray;
+    border-style:solid;
+    border-radius:50%;
+    background-color:red;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.service_box{
+    display:flex;
+    flex-direction:row;
+    margin-bottom:150px;
+    justify-content: space-between;
 }
