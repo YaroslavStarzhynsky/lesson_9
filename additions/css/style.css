@@ -1,8 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 *{
+    margin: 0;
+    padding: 0;
+}
+hr{
+    margin: 0 auto;
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    border-radius: 2px;
+}
+.header_text{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 30px;
+}
+h1{
+    margin-top: 260px;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+}
+.strtup{
+    font-size: 24px;
+}
+body{
     font-family: 'Montserrat', sans-serif;
-    margin:0;
-    padding:0;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
 }
 header{
     background: url(../img/background.png) no-repeat center;
@@ -12,102 +40,149 @@ header{
     flex-direction:column;
     font-family: 'Montserrat', sans-serif;
 }
-.nav{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    margin-bottom: 300px;
-    color:white;
-}
-.nav a{
-text-decoration: none;
-color:white;
-}
-.button{
-    margin-top:10px;
-    border: 1px solid white;
-    padding:10px;
-    border-radius:7%;
-}
-.header_ul{
-    margin-left:1100px;
-    
-}
-.logo{
-    margin-left:229px;
-    margin-top:40px;
-}
 ul{
-    margin-top:20px;
-}
-li{
-    margin-right:15px;
-    display:inline;
-    color:white;
-    
-}
-.header_ul li{
+    color: white;
     list-style-type: none;
 }
-.header_main{
-    display:flex;
-    float:none;
-    align-items:center;
-   justify-content:center;
-   flex-direction:column;
-   margin-top:27vh;
+a{
+    text-decoration: none;
+    color: white;
 }
-.services{
-margin-top:90px;
-flex-wrap:wrap;
+.header_txt{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
 }
-.service_name{
-    margin:0 auto;
+.header{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.name{
-    font-size:24px;
-    text-align:center;
-    margin-bottom:30px;
+li{
+    font-size: 14px;
+    margin-left: 50px;
 }
-hr{
-    margin: 0 auto;
-    width:50px;
-    height:1px;
-    background-color:black;
-    border-radius:3px;
-}
-.service_txt{
-    margin:0 auto;
-    margin-bottom:90px;
-}
-.txt{
-    text-align:center;
-    margin-top:30px;
-}
-.icons{
-    display:flex;
-    flex-direction:row;
+.header_list_ul{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
 }
-
-.box{
-    color:white;
-    width: 80px;
-    height: 80px;
-    font-size:35px;
-    border-width:1px;
-    border-color:gray;
-    border-style:solid;
-    border-radius:50%;
-    background-color:red;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
+._button{
+    text-align: center;
+    margin-top: 70px;
+}
+.header_started{
+    border: 2px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 7%;
+}
+.main{
+    margin-top: 90px;
+    flex-wrap: wrap;
+}
+._name{
+    margin: 0 auto;
+}
+.name_servc{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.service_txt{
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+.txt{
+    margin-top: 30px;
+    text-align: center;
+}
 .service_box{
-    display:flex;
-    flex-direction:row;
-    margin-bottom:150px;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 150px;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.fa{
+    color: white;
+    padding: 30px;
+    font-size: 30px;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.name_frst{
+     margin-bottom: 25px;
+    margin-top: 30px;
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+    font-size: 14px;
+}
+.name_scnd{
+    margin-bottom: 25px;
+    margin-top: 30px;
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+    font-size: 14px;
+}
+.name_thrd{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+    font-size: 14px;
+}
+.text_frst{
+    color: gray;
+    font-size: 14;
+    text-align: center;
+}
+.text_scnd{
+    color: gray;
+    font-size: 14;
+    text-align: center;
+}
+.text_{
+    color: gray;
+    font-size: 14;
+    text-align: center;
+}
+footer{
+    background-color: #c0301c;
+    width: 100%;
+    height: 300px;
+}
+.fa-twitter{
+    color: white;
+    padding: 8px;
+    font-size: 12px;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 50%;
+    background-color: #3eb8ff;
+    text-align: center;
+}
+.foot_bird{
+    text-align: center;
+    padding-top: 100px;
+}
+.design{
+    color: white;
+    padding-top: 60px;
 }
